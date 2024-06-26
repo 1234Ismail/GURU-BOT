@@ -7,8 +7,9 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 const ownervb = process.env.OWNERS || "917605902011;GURU;6281255369012;Ash"
-
-
+['252770998564', 'Ismail', true],
+ ['6281255369012', 'Ash',
+true],
 const ownerlist = ownervb.split(';');
 
 global.owner = [];
